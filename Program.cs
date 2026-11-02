@@ -40,7 +40,8 @@ namespace Cenzura
             {
                 if(kvp.Value >0)
                 {
-                    Console.WriteLine(kvp.Key.ToString() + ": " + kvp.Value.ToString());
+                    Console.WriteLine(kvp.Key.ToString() + ": " +
+                        kvp.Value.ToString());
                 }
             }
         }
